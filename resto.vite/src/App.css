@@ -1,0 +1,29 @@
+body{
+    background-color: #fff9f5;
+}
+.menu-hamb{
+    background-color: #FFA775;
+}
+.price{
+   color:  #FFA775;
+}
+.btn{
+    border: rgb(150, 150, 150)1px solid;
+    font-size: 9px;
+}
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(4px);
+    }
+  }
+  
+  .hamburger {
+    animation: float 5s linear infinite ;
+  }
+  .color{
+    color: #F9A06F;
+  }
