@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "deploy": "gh-pages -d dist && pnpm run build",
     "build": "tsc && vite build",
+    "deploy": "pnpm run build && gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
