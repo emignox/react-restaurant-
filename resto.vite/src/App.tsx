@@ -1,16 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './header'
-import Hero from './heroSection'
-import Premium from './prime'
-
+import Home from './home'
 function App() {
 
   return ( 
     <div> 
-      <Header /> 
-      <Hero />
-      <Premium /> 
+      <Home />
+     
+
     </div>
    
   )

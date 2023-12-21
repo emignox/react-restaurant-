@@ -1,5 +1,5 @@
 body{
-    background-color: #fff9f5;
+    background-color: #fff4ed;
 }
 .menu-hamb{
     background-color: #FFA775;
@@ -17,7 +17,7 @@ body{
       transform: translateY(0);
     }
     50% {
-      transform: translateY(4px);
+      transform: translateY(10px);
     }
   }
   
