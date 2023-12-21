@@ -10,7 +10,7 @@ function mexican_burger() {
           $19.99
         </h3>
         <button className=" btn text-xs absolute  mt-3  -left-5   w-24 top-24 p-2 rounded-full    btn sm:text-xss sm:absolute  sm:mt-3  sm:-left-2   sm:w-24 sm:top-40 sm:p-2 sm:rounded-full">
-          <img className="w-3 inline" src="../img/carrello.png" alt="" />
+          <img className="w-3 inline" src="./img/carrello.png" alt="" />
           add to cart
         </button>
       </div>
