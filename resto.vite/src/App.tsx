@@ -4,10 +4,7 @@ import Home from './home';
 function App() {
   return (
       <div>
-        
-
             <Home />
-        
       </div>
     
   );
