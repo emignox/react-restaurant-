@@ -25,7 +25,7 @@ function space_one() {
         <div className="sm:d-flex sm:justify-content-center sm:align-items-center ">
           <img
             className="hamburger  absolute w-64 top-  left-16  sm:absolute sm:left-28 z-30 sm:top-10  sm:w-2/3  sm:z-30 lg:w-auto lg:top-0  lg:left-80  "
-            src="./img/hamburger.png"
+            src="../img/hamburger.png"
             alt=""
           />
         </div>
