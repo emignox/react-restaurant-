@@ -14,6 +14,9 @@ dependencies:
   react-icons:
     specifier: ^5.0.1
     version: 5.0.1(react@18.2.0)
+  resto.vite:
+    specifier: 'link:'
+    version: 'link:'
 
 devDependencies:
   '@types/react':
