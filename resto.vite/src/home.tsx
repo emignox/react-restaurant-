@@ -1,23 +1,18 @@
-import './App.css'
-import Header from './components/navbar'
-import Space_one from './components/space1'
-import Mexican_burger from './components/mexican_burger'
-import LittlePizza from './components/little_pizza'
-import Space_due from './components/space2'
+import "./App.css";
+import Header from "./components/navbar";
+import Space_one from "./components/space1";
+import Section2 from "./components/space2";
+import Section3 from "./components/section3";
 
 function landingPage() {
-
-  return ( 
-    <div> 
-      <Header /> 
-        <Space_one />
-        <Mexican_burger />
-        <LittlePizza />
-        <Space_due />
+  return (
+    <div>
+      <Header />
+      <Space_one />
+      <Section2 />
+      <Section3 />
     </div>
-   
-  )
+  );
+}
 
-    }
-
-export default landingPage
+export default landingPage;

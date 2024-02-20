@@ -1,35 +1,31 @@
-
+import hamburger from "/hamburger.png";
+import carrello from "/carrello.png";
 
 function space_one() {
-    return (
-      <div className="flex h-52 flex-col sm:h-96">
-        <h1 className=  " mx-2 absolute top-20 font-black  text-left w-auto   text-2xl  leading-tight  text-indigo-950 sm:font-black sm:h-60 sm:text-left sm:w-auto sm:leading-tight sm:text-indigo-950 sm:text-5xl sm:p-5 lg:text-8xl">
-          {" "}
-          GREAT <br /> <span className=" text-base italic font-semibold sm:text-3xl sm:italic sm:font-black  lg:text-6xl lg:font-black">
-            FAST
-          </span> FOOD <br /> SHOP
-        </h1>
-        <svg
-          className=" mx-2  w-9 absolute top-32 h-5   sm:absolute  sm:w-20 sm:left-5 sm:top-52  lg:w-32 lg:top-72"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 268 39"
-          fill="none"
-        >
-          <path
-            d="M263.266 16.0673C63.4969 -11.0228 7.60057 17.3236 4.62349 34.883"
-            stroke="#FFA876"
-            stroke-width="8"
-            stroke-linecap="round"
-          />
-        </svg>
-        <div className="sm:d-flex sm:justify-content-center sm:align-items-center ">
-          <img
-            className="hamburger  absolute w-64 top-  left-16  sm:absolute sm:left-28 z-30 sm:top-10  sm:w-2/3  sm:z-30 lg:w-auto lg:top-0  lg:left-80  "
-            src="./img/hamburger.png"
-            alt=""
-          />
-        </div>
+  return (
+    <div className="flex flex-row justify-between items-center px-5 lg:p-20   ">
+      <h1 className="mx-2 font-black text-left text-2xl leading-7 text-indigo-950     lg:text-6xl">
+        GREAT <br />
+        <span className="text-xl italic font-semibold sm:text-3xl sm:italic sm:font-black lg:text-6xl  lg:font-normal  ">
+          FAST
+        </span>
+        FOOD <br /> SHOP
+      </h1>{" "}
+      <img className="w-1/2 hamburger lg:w-2/5 " src={hamburger} alt="" />
+      <div className="flex flex-col text-center items-center justify-center space-y-2  w-1/3 m-0 p-0">
+        <h2 className="text-indigo-950 text-xs font-extrabold tracking-widest sm:text-indigo-950 sm:text-3xl sm:font-extrabold lg:text-2xl">
+          Mexican <br />
+          Burger
+        </h2>
+        <h3 className="price text-xs font-extrabold tracking-widest sm:text-2xl sm:font-extrabold lg:mt-32 lg:text-4xl">
+          $19.99
+        </h3>
+        <button className="btn   rounded-full sm:mt-3 sm:-left-2 sm:w-24 sm:top-40 sm:p-2 sm:rounded-full">
+          <img className="w-3 inline" src={carrello} alt="" />
+          add to cart
+        </button>
       </div>
-    );
-  }
-  export default space_one;
+    </div>
+  );
+}
+export default space_one;

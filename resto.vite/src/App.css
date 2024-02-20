@@ -1,29 +1,37 @@
-body{
-    background-color: #fff4ed;
+body {
+  background-color: #fff4ed;
 }
-.menu-hamb{
-    background-color: #FFA775;
+.menu-hamb {
+  background: linear-gradient(to bottom, #fff4ed, #ffa775);
 }
-.price{
-   color:  #FFA775;
+.price {
+  color: #ffa775;
 }
-.btn{
-    border: rgb(150, 150, 150)1px solid;
-    font-size: 9px;
+.btn {
+  border: rgb(150, 150, 150) 1px solid;
+  font-size: 9px;
 }
 
 @keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(10px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
-  .hamburger {
-    animation: float 5s linear infinite ;
+  50% {
+    transform: translateY(8px);
   }
-  .color{
-    color: #F9A06F;
-  }
+}
+
+.hamburger {
+  animation: float 4s ease-in-out infinite;
+}
+.color {
+  color: #f9a06f;
+}
+
+.burger-text {
+  color: #e8905b;
+}
+.gradient-top {
+  background: linear-gradient(to top, #fff4ed, #ffa775);
+}
