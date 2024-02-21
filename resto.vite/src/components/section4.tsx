@@ -21,7 +21,7 @@ function section4() {
           ></path>
         </svg>
         <h1 className="text-center text-3xl lg:text-5xl text-indigo-950 font-black pb-10">
-          The best food in New York!! 🌭🍔🍟
+          The best fast food in New York!! 🌭🍔🍟
         </h1>
         {sections.map((section, index) => (
           <div className="  flex flex-row  " key={index}>

@@ -35,3 +35,34 @@ body {
 .gradient-top {
   background: linear-gradient(to top, #fff4ed, #ffa775);
 }
+
+@keyframes fadeIn-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-from-right {
+  animation: 1.5s ease-out 0s fadeIn-from-right;
+}
+
+/* Path: resto.vite/src/components/Menu.css */
+@keyframes fadeIn-from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-from-left {
+  animation: 2s ease-out 0s fadeIn-from-left;
+}

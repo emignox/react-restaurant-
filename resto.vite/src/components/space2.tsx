@@ -20,9 +20,13 @@ const vectors = [
   },
 ];
 
-function section2() {
+function Section2() {
   return (
-    <div className="   bg-custom-color h-auto text-center p-0  lg:mx-0  lg:rounded-3xl rounded-xl  ">
+    <div
+      className={
+        "    my-44   bg-custom-color h-auto text-center p-0  lg:mx-0  lg:rounded-3xl rounded-xl    "
+      }
+    >
       <svg
         style={{ transform: "translateY(-1px)" }}
         xmlns="http://www.w3.org/2000/svg"
@@ -38,21 +42,21 @@ function section2() {
       <h1 className="  text-indigo-950 text-xl  font-black  lg:text-4xl">
         Our premier Food
       </h1>
-      <div className="flex flex-row w-3/3  ">
+      <div className="flex  flex-row  ">
         {vectors.map((vector, index) => (
           <div
-            className="flex flex-col  items-center justify-center my-6 "
+            className="flex flex-col items-center justify-center my-6 w-full "
             key={index}
           >
             <img
-              className="w-2/4 z-10 bg-custom-color-dark rounded-full  shadow-2xl    "
+              className=" w-3/5 z-10 bg-custom-color-dark rounded-full shadow-2xl hover:scale-105 transition duration-500 "
               src={vector.img}
               alt={vector.title}
             />
-            <h2 className="  text-indigo-950 text-base  font-black lg:text">
+            <h2 className="text-indigo-950 text-base font-black lg:text">
               {vector.title}
             </h2>
-            <p className="  text-indigo-950 text-base  font-bold">
+            <p className="text-indigo-950 text-base font-bold">
               {vector.price}
             </p>
           </div>
@@ -73,4 +77,4 @@ function section2() {
     </div>
   );
 }
-export default section2;
+export default Section2;
