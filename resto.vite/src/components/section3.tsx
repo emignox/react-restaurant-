@@ -11,8 +11,8 @@ function Section3() {
             src={click}
             alt=""
           />
-          <div className=" flex flex-col items-end  justify-center  space-y-5  ">
-            <h1 className="mx-2 font-black  text-end text-xl leading-7 text-indigo-950  w-full    lg:text-6xl">
+          <div className=" flex flex-col  lg:flex lg:flex-col lg:items-end  items-center  justify-center  space-y-5 my-10 ">
+            <h1 className="mx-2 font-black  lg:text-end text-center text-xl leading-7 text-indigo-950  w-full    lg:text-6xl">
               Click and in few minutes <br /> your order is ready!!{" "}
             </h1>
 
@@ -36,8 +36,8 @@ function Section3() {
             src={drone}
             alt=""
           />
-          <div className=" flex flex-col items-start justify-center  space-y-5 ">
-            <h1 className="mx-2 font-black text-start text-xl leading-7 text-indigo-950     lg:text-6xl">
+          <div className=" flex flex-col  lg:flex lg:flex-col lg:items-start  items-center  justify-center  space-y-5  my-10 ">
+            <h1 className="mx-2 font-black text-center lg:text-start  text-xl leading-7 text-indigo-950     lg:text-6xl">
               Drone delivery <br /> 10 times faster!!{" "}
             </h1>
 
